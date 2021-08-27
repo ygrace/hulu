@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+/* this is navigation bar */
+
+.navigation {
+    background-color: darkgreen;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.zone {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.push {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        padding-left: 0;
+    }
+    a {
+        font-size: 0.8em;
+    }
+}
+
+/* this is cover */
+
+.cover {
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grape {
+    width: 10%;
+}
+
+/* this is product part */
+
+.container {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.space {
+    background-color: greenyellow;
+    padding: 120px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.space:hover {
+    transform: rotate(-10deg);
+}
+
+.grape2 {
+    width: 100%;   
+}
+
+.grape2:hover {
+    transform: rotate(20deg);
+}
+
+/* this is footer */
+
+footer {
+    background-color: indigo;
+    text-align: center;
+    color: darkgray;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+}
